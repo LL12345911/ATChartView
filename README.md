@@ -2,6 +2,7 @@
 使用CaLayer创建的柱形图，使用方便，可定制
 
 ···
+
  _chartView = [[ATBarChartVIew alloc] initWithFrame:CGRectMake(10, 100, 400, 400)];
     _chartView.backgroundColor = [UIColor greenColor];
     
@@ -18,4 +19,5 @@
     
     _chartView.dataArr = arr;
     [self.view addSubview:_chartView];
+    
 ···
